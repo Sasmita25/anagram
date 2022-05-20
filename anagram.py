@@ -10,7 +10,7 @@ def anagram(string1, string2):
        print("Both strings do not form as a Anagram.")
    
 #test cases
-anagram("EARTH", "HEART")
+nagram("EARTH", "HEART")
 anagram("tom", "Mmot")
 anagram({1,3,5},{5,3,1})
 anagram("E$h*","*hE$")
