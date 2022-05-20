@@ -2,7 +2,7 @@ def anagram(string1, string2):
     print("Before Sort",string1,string2)
     print("After Sort",sorted(string1),sorted(string2))
 # Strings are sorted and verified
-    if(sorted(string1)== sorted(string2)):
+    if(sorted(string1) == sorted(string2)):
         
         print("Both strings form a Anagram.")
     else:
