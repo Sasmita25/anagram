@@ -1,5 +1,6 @@
 import pytest
 from anagram import anagram
+def test_run_stuff():
 assert anagram("EARTH", "HEART") == "Both strings form a Anagram."
 assert anagram("tom", "Mmot") == "Both strings do not form as a Anagram."
 assert anagram({1,3,5},{5,3,1}) == "Both strings form a Anagram."
