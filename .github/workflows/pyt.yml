@@ -25,3 +25,6 @@ jobs:
     - name: Run anagram
       run: |
         python anagram.py
+    - name: Run test
+      run: |
+        pytest cases.py
