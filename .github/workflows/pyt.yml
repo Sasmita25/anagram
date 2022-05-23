@@ -25,6 +25,12 @@ jobs:
     - name: Run anagram
       run: |
         python anagram.py
-    - name: Run test
+    - name: Install dependencies
       run: |
-        pytest cases.py
+        python -m pip install --upgrade pip
+        pip install pipenv
+        pipenv install --dev
+    - name: Test with pytest
+      run: |
+        pip install pytest
+        pytest
