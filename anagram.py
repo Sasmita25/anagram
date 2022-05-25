@@ -4,10 +4,10 @@ def anagram(string1, string2):
 # Strings are sorted and verified
     if(sorted(string1) == sorted(string2)):
         
-        print("Both strings form a Anagram.")
+        return "Both strings form a Anagram."
     else:
       
-       print("Both strings do not form as a Anagram.")
+       return "Both strings do not form as a Anagram."
    
 #test cases
 anagram("EARTH", "HEART")
