@@ -9,4 +9,4 @@ Anagram program in _**python**_ can be used for _strings,sets,list_ and _diction
  - `Print` They form an anagram if condition satisfy (or) `Print` They do not form an anagram.
  ## Test cases
  Call the function `anagram`
- - Use Strings,sets,lists and dictionary data types as parameters.
+ - Use Strings,sets,lists and dictionary data types as arguments.
